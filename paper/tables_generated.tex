@@ -1,0 +1,50 @@
+\newcommand{\MAINTAB}{%
+Bursty mixed & EEVDF & 4.31 & 31.04 & 72.2 [66.5, 78.1] & 56.6 & 1.80 & 8.88 & 54 \\
+ & Static FaaS Prio. & 1.73 & 13.16 & 18.8 [16.3, 22.4] & 26.6 & 1.82 & 9.92 & 211 \\
+ & LAVD-like & 1.21 & 27.08 & 64.6 [58.3, 70.2] & 22.6 & 1.81 & 9.08 & 109 \\
+ & IA-SchedExt & 2.27 & 14.30 & 20.2 [18.0, 23.7] & 36.1 & 1.83 & 10.03 & 205 \\
+\midrule
+Smooth mixed & EEVDF & 2.66 & 12.90 & 25.8 [24.9, 26.7] & 41.3 & 1.75 & 3.29 & 11 \\
+ & Static FaaS Prio. & 1.07 & 4.86 & 9.3 [9.0, 9.5] & 1.6 & 1.77 & 3.37 & 23 \\
+ & LAVD-like & 1.03 & 10.96 & 23.4 [22.7, 24.4] & 16.9 & 1.76 & 3.26 & 13 \\
+ & IA-SchedExt & 1.47 & 7.45 & 14.3 [14.0, 14.5] & 12.6 & 1.78 & 3.28 & 17 \\
+}
+\newcommand{\PAIREDTAB}{%
+Bursty & vs.\ EEVDF & -71.5\% & [-72.9, -71.0] & $5.3\times10^{-15}$ \\
+Bursty & vs.\ LAVD-like & -68.3\% & [-69.2, -67.2] & $5.3\times10^{-15}$ \\
+Bursty & vs.\ Static FaaS Prio. & +8.6\% & [+7.3, +9.8] & $5.3\times10^{-15}$ \\
+\midrule
+Smooth & vs.\ EEVDF & -44.4\% & [-45.3, -43.4] & $5.3\times10^{-15}$ \\
+Smooth & vs.\ LAVD-like & -39.0\% & [-40.4, -38.1] & $5.3\times10^{-15}$ \\
+Smooth & vs.\ Static FaaS Prio. & +54.9\% & [+52.9, +56.8] & $5.3\times10^{-15}$ \\
+}
+\newcommand{\SINGLETAB}{%
+A (FaaS only) & EEVDF & 0.89 & 8.91 & 0.6 & -- \\
+ & Static FaaS Prio. & 0.91 & 8.31 & 1.0 & -- \\
+ & LAVD-like & 0.87 & 8.99 & 0.9 & -- \\
+ & IA-SchedExt & 0.89 & 8.90 & 0.6 & -- \\
+\midrule
+B (daemons only) & EEVDF & -- & -- & -- & 3.84 \\
+ & Static FaaS Prio. & -- & -- & -- & 3.84 \\
+ & LAVD-like & -- & -- & -- & 3.84 \\
+ & IA-SchedExt & -- & -- & -- & 3.84 \\
+}
+\newcommand{\ABLTAB}{%
+IA (full) & 20.5 & 36.4 & 207 & 397 \\
+no AGING (FAIR/STRICT) & 19.2 & 29.2 & 217 & 389 \\
+no STRICT (FAIR/AGING) & 73.4 & 43.5 & 16 & 305 \\
+no FAIR (STRICT/AGING) & 20.5 & 36.0 & 208 & 59 \\
+theta=0.01 & 20.3 & 36.2 & 207 & 409 \\
+theta=0.20 & 22.0 & 38.1 & 209 & 348 \\
+F thresholds 0.2/0.5 & 20.3 & 32.9 & 209 & 308 \\
+F thresholds 0.4/0.7 & 21.2 & 41.7 & 204 & 407 \\
+min dwell 5 ms & 20.3 & 38.1 & 210 & 134 \\
+misclassification 5\% & 32.8 & 41.6 & 104 & 460 \\
+misclassification 20\% & 58.1 & 49.4 & 47 & 499 \\
+}
+\newcommand{\GAMMATAB}{%
+0.0 & 67.0 & 19.3 & 20.8 \\
+0.15 & 69.3 & 19.5 & 20.8 \\
+0.3 & 73.0 & 19.7 & 21.1 \\
+0.6 & 81.4 & 20.1 & 21.0 \\
+}

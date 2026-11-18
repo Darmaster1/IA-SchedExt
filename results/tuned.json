@@ -1,0 +1,1 @@
+{"params": {"boost": 8, "alpha": 0.25, "t_gran": 500.0}, "val_p99_slo": [16.701688990441628, 34.254186581695876], "grid": "boost{2,4,8} x alpha{.25,.5,1} x t_gran{500,1000,2000}us; objective: median p99 then SLO miss"}

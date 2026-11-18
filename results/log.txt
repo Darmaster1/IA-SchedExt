@@ -1,0 +1,8 @@
+[    51s] tuned {'boost': 8, 'alpha': 0.25, 't_gran': 500.0}
+[    85s] E1 mixed_burst
+[   115s] E1 mixed_smooth
+[   124s] E2
+[   221s] E3
+[   296s] E4
+[   331s] E5
+[   331s] done
